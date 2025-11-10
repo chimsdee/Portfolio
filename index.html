@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chimsom Elue - Front-End Developer & UI/UX Designer Portfolio">
+  <meta name="keywords" content="front-end developer, web designer, UI/UX designer, portfolio">
+  <meta name="author" content="Chimsom Elue">
+
+  <title>Chimsom Elue | Front-End Developer & Designer</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+
+<body class="light-mode">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+          <i class='bx bxs-component bx-flip-vertical bx-spin brand-icon' aria-hidden="true"></i>
+          <span class="brand-text ms-2">Portfolio</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="theme-toggle ms-3">
+          <label class="switch" for="themeToggle" aria-label="Toggle dark mode">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero-section">
+      <div class="hero-video">
+        <video autoplay loop muted playsinline aria-hidden="true">
+          <source src="assets/video/vid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="container">
+          <div class="row align-items-center min-vh-100">
+            <div class="col-lg-8">
+              <p class="hero-greeting">Hi, I'm</p>
+              <h1 class="hero-name">Chimsom Divine Elue</h1>
+              <div class="hero-roles">
+                <span class="role" data-text="Front-End Developer">Front-End Developer</span>
+                <span class="role" data-text="Web Designer">Web Designer</span>
+                <span class="role" data-text="UI/UX Designer">UI/UX Designer</span>
+                <span class="role" data-text="Freelancer">Freelancer</span>
+              </div>
+              <p class="hero-description">
+                Welcome to my portfolio! I specialize in crafting intuitive web designs and building robust software
+                solutions.
+                Explore my work and let's create something amazing together.
+              </p>
+              <div class="hero-actions">
+                <a href="#portfolio" class="btn btn-primary me-3">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <div class="section-content">
+              <header class="section-header mb-4">
+                <h2 class="section-subtitle">My Biography</h2>
+                <h3 class="section-title">A Student, Web Designer & Beginner in UI/UX Design</h3>
+              </header>
+
+              <blockquote class="bio-quote">
+                <p><b>Passionate student and aspiring web designer with a growing interest in UI/UX design.
+                    Dedicated to creating user-friendly, visually appealing digital experiences while continuously
+                    learning and evolving in the ever-changing tech landscape.</b></p>
+              </blockquote>
+
+              <hr class="section-divider my-4">
+
+              <div class="personal-info">
+                <div class="row mb-4">
+                  <div class="col-md-6">
+                    <p><strong>Name:</strong> <span>Chimsom Elue</span></p>
+                    <p><strong>Email:</strong> <span>chimsom09@gmail.com</span></p>
+                  </div>
+                  <div class="col-md-6">
+                    <p><strong>From:</strong> <span>Luton, United Kingdom</span></p>
+                    <p><strong>Phone:</strong> <span>+44 744 927 0921</span></p>
+                  </div>
+                </div>
+
+                <div class="social-links mb-4">
+                  <p class="mb-2"><strong>Follow me on:</strong></p>
+                  <div class="social-icons">
+                    <a href="#" aria-label="Instagram" class="me-2"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" aria-label="Twitter" class="me-2"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" aria-label="YouTube" class="me-2"><i class='bx bxl-youtube'></i></a>
+                    <a href="#" aria-label="LinkedIn" class="me-2"><i class='bx bxl-linkedin'></i></a>
+                  </div>
+                </div>
+
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="profile-image">
+              <div class="image-frame">
+                <img src="assets/images/WhatsApp Image 2025-11-01 at 13.53.22_a8ae1b56.jpg"
+                  alt="Chimsom Elue - Front End Developer" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-padding bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <figure class="skills-image">
+              <img src="assets/images/pic.jpg" alt="Web Development Skills" class="img-fluid rounded" loading="lazy">
+              <figcaption class="visually-hidden">Visual representation of my technical skills</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-lg-8">
+            <header class="section-header mb-4">
+              <h2 class="section-subtitle">My Skills</h2>
+              <h3 class="section-title">My Featured Skills</h3>
+            </header>
+
+            <p class="skills-description mb-4">
+              Proficient in data analysis, project management, and digital marketing. Strong communication
+              and problem-solving skills with a track record of driving results in fast-paced environments.
+            </p>
+
+            <div class="skills-list">
+              <article class="skill-item mb-4">
+                <header class="skill-header d-flex justify-content-between mb-2">
+                  <h4 class="skill-name">UI/UX Design</h4>
+                  <span class="skill-percentage">40%</span>
+                </header>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </article>
+
+              <article class="skill-item mb-4">
+                <header class="skill-header d-flex justify-content-between mb-2">
+                  <h4 class="skill-name">Freelancing</h4>
+                  <span class="skill-percentage">20%</span>
+                </header>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </article>
+
+              <article class="skill-item mb-4">
+                <header class="skill-header d-flex justify-content-between mb-2">
+                  <h4 class="skill-name">Web Design</h4>
+                  <span class="skill-percentage">70%</span>
+                </header>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </article>
+
+              <article class="skill-item mb-4">
+                <header class="skill-header d-flex justify-content-between mb-2">
+                  <h4 class="skill-name">Front-End Development</h4>
+                  <span class="skill-percentage">50%</span>
+                </header>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section-padding">
+      <div class="container">
+        <header class="section-header text-center mb-5">
+          <h2 class="section-subtitle">My Work</h2>
+          <h3 class="section-title">Featured Projects</h3>
+          <p class="section-description">
+            A collection of my recent projects that showcase my skills in web development and design.
+          </p>
+        </header>
+
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <article class="project-card">
+              <figure class="project-image">
+                <img src="assets/images/pic2.jpg" alt="E-Commerce Website Project" class="img-fluid" loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-actions">
+                    <a href="#" class="btn btn-sm btn-primary me-2">View Details</a>
+                    <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                  </div>
+                </div>
+              </figure>
+              <div class="project-content p-3">
+                <h4 class="project-title">E-Commerce Website</h4>
+                <p class="project-description">
+                  A fully responsive e-commerce platform with shopping cart and payment integration.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <article class="project-card">
+              <figure class="project-image">
+                <img src="assets/images/Screenshot 2024-12-11 124619.png" alt="Weather App Dashboard" class="img-fluid"
+                  loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-actions">
+                    <a href="#" class="btn btn-sm btn-primary me-2">View Details</a>
+                    <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                  </div>
+                </div>
+              </figure>
+              <div class="project-content p-3">
+                <h4 class="project-title">Weather Dashboard</h4>
+                <p class="project-description">
+                  Real-time weather application with location-based forecasts and interactive maps.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">API</span>
+                  <span class="tech-tag">Chart.js</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <article class="project-card">
+              <figure class="project-image">
+                <img src="assets/images/Screenshot 2024-12-11 124619.png" alt="Portfolio Website" class="img-fluid"
+                  loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-actions">
+                    <a href="#" class="btn btn-sm btn-primary me-2">View Details</a>
+                    <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                  </div>
+                </div>
+              </figure>
+              <div class="project-content p-3">
+                <h4 class="project-title">Portfolio Website</h4>
+                <p class="project-description">
+                  Modern responsive portfolio website with dark mode and smooth animations.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <article class="project-card">
+              <figure class="project-image">
+                <img src="assets/images/Screenshot 2024-12-11 124619.png" alt="Portfolio Website" class="img-fluid"
+                  loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-actions">
+                    <a href="#" class="btn btn-sm btn-primary me-2">View Details</a>
+                    <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                  </div>
+                </div>
+              </figure>
+              <div class="project-content p-3">
+                <h4 class="project-title">Portfolio Website</h4>
+                <p class="project-description">
+                  Modern responsive portfolio website with dark mode and smooth animations.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <article class="project-card">
+              <figure class="project-image">
+                <img src="assets/images/Screenshot 2024-12-11 124619.png" alt="Portfolio Website" class="img-fluid"
+                  loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-actions">
+                    <a href="#" class="btn btn-sm btn-primary me-2">View Details</a>
+                    <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                  </div>
+                </div>
+              </figure>
+              <div class="project-content p-3">
+                <h4 class="project-title">Portfolio Website</h4>
+                <p class="project-description">
+                  Modern responsive portfolio website with dark mode and smooth animations.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <article class="project-card">
+              <figure class="project-image">
+                <img src="assets/images/Screenshot 2024-12-11 124619.png" alt="Portfolio Website" class="img-fluid"
+                  loading="lazy">
+                <div class="project-overlay">
+                  <div class="project-actions">
+                    <a href="#" class="btn btn-sm btn-primary me-2">View Details</a>
+                    <a href="#" class="btn btn-sm btn-outline">Live Demo</a>
+                  </div>
+                </div>
+              </figure>
+              <div class="project-content p-3">
+                <h4 class="project-title">Portfolio Website</h4>
+                <p class="project-description">
+                  Modern responsive portfolio website with dark mode and smooth animations.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="blog" class="section-padding">
+      <div class="container">
+        <header class="section-header mb-5">
+          <h2 class="section-subtitle">Blog</h2>
+          <h3 class="section-title">My Latest Posts</h3>
+          <p class="section-description">
+            Check out my latest blog posts where I share insights, tutorials, and experiences related to software
+            engineering.
+          </p>
+        </header>
+
+        <div class="row">
+          <!-- Blog 1 -->
+          <article class="col-md-6 col-lg-4 mb-4">
+            <div class="blog-card">
+              <figure class="blog-image">
+                <img src="assets/images/webdev.jpeg" alt="Introduction to Web Development" class="img-fluid"
+                  loading="lazy">
+              </figure>
+              <div class="blog-content p-3">
+                <h4 class="blog-title">Introduction to Web Development</h4>
+                <p class="blog-excerpt">
+                  Learn the basics of web development, including HTML, CSS, and JavaScript.
+                </p>
+                <footer class="blog-footer">
+                  <a href="https://medium.com/@chimsom09/introduction-to-web-development-78cba0565e17"
+                    class="btn btn-primary">Read More</a>
+                </footer>
+              </div>
+            </div>
+          </article>
+
+          <!-- Blog 2 -->
+          <article class="col-md-6 col-lg-4 mb-4">
+            <div class="blog-card">
+              <figure class="blog-image">
+                <img src="assets/images/uiux.webp" alt="UI/UX Design Principles" class="img-fluid" loading="lazy">
+              </figure>
+              <div class="blog-content p-3">
+                <h4 class="blog-title">UI/UX Design Principles</h4>
+                <p class="blog-excerpt">
+                  Explore the key principles of UI/UX design and how to apply them in your projects.
+                </p>
+                <footer class="blog-footer">
+                  <a href="https://medium.com/@chimsom09/ui-ux-design-principles-90292abe3fe5"
+                    class="btn btn-primary">Read More</a>
+                </footer>
+              </div>
+            </div>
+          </article>
+
+          <!-- Blog 3 -->
+          <article class="col-md-6 col-lg-4 mb-4">
+            <div class="blog-card">
+              <figure class="blog-image">
+                <img src="assets/images/backend.webp" alt="Getting Started with Flask" class="img-fluid" loading="lazy">
+              </figure>
+              <div class="blog-content p-3">
+                <h4 class="blog-title">Getting Started with Flask</h4>
+                <p class="blog-excerpt">
+                  A beginner's guide to building web applications using Flask.
+                </p>
+                <footer class="blog-footer">
+                  <a href="https://medium.com/@chimsom09/getting-started-with-flask-08588baa46f4"
+                    class="btn btn-primary">Read More</a>
+                </footer>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center mt-4">
+          <a href="#" class="btn btn-outline">View All Posts</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <header class="section-header text-center mb-5">
+          <h2 class="section-subtitle">Get In Touch</h2>
+          <h3 class="section-title">Let's Work Together</h3>
+          <blockquote class="contact-intro">
+            <p><b>Thank you for visiting my portfolio! If you'd like to collaborate, discuss a project, or simply
+                connect,
+                feel free to reach out. I'm always open to new opportunities and conversations.
+                Let's bring your ideas to life, get in touch today!</b></p>
+          </blockquote>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form class="contact-form" id="contactForm">
+              <div class="row mb-3">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" name="phone">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <div class="container-fluid p-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.9719002866063!2d-0.42324792345773044!3d51.87972547190046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876485b10580799%3A0x58f1291b1dd7845!2sThe%20Stack!5e0!3m2!1sen!2suk!4v1762790697433!5m2!1sen!2suk"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="My Location Map">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer bg-dark text-light">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="footer-brand d-flex align-items-center mb-3">
+            <i class='bx bxs-component bx-flip-vertical bx-spin brand-icon' aria-hidden="true"></i>
+            <h4 class="ms-2 mb-0">Portfolio</h4>
+          </div>
+          <p class="mb-3">I'm always open to new opportunities and conversations about exciting projects.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" class="text-light me-2"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#" aria-label="LinkedIn" class="text-light me-2"><i class='bx bxl-linkedin'></i></a>
+            <a href="#" aria-label="Twitter" class="text-light me-2"><i class='bx bxl-twitter'></i></a>
+            <a href="#" aria-label="Instagram" class="text-light me-2"><i class='bx bxl-instagram'></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3" style="color: azure;">Services</h5>
+          <ul class="footer-links list-unstyled">
+            <li class="mb-2"><a href="#portfolio" class="text-light text-decoration-none">Web Development</a></li>
+            <li class="mb-2"><a href="#portfolio" class="text-light text-decoration-none">Front-End Development</a></li>
+            <li class="mb-2"><a href="#portfolio" class="text-light text-decoration-none">UI/UX Design</a></li>
+            <li class="mb-2"><a href="#portfolio" class="text-light text-decoration-none">Freelance Projects</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3" style="color: azure;">Support</h5>
+          <ul class="footer-links list-unstyled">
+            <li class="mb-2"><a href="404page.html" class="text-light text-decoration-none">Privacy Policy</a></li>
+            <li class="mb-2"><a href="404page.html" class="text-light text-decoration-none">Terms of Service</a></li>
+            <li class="mb-2"><a href="404page.html" class="text-light text-decoration-none">Help & FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3">Newsletter</h5>
+          <form class="newsletter-form mb-3">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Email Address" required>
+              <button class="btn btn-primary" type="submit">
+                <i class='bx bx-send' aria-hidden="true"></i>
+              </button>
+            </div>
+          </form>
+          <p class="newsletter-text small">Subscribe to get the latest updates and news.</p>
+        </div>
+      </div>
+
+      <hr class="bg-light my-4">
+
+      <div class="footer-bottom text-center">
+        <p class="mb-0">&copy; 2025 Chimsom Elue. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
